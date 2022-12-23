@@ -1,0 +1,118 @@
+    body {
+        box-sizing: border-box;
+        font-family: sans-serif;
+        background-color: blanchedalmond;
+        /* display:flex; */
+        /* flex-direction: column; */
+
+    }
+
+    .main, h1 {
+        width: auto;
+        margin: 10px auto;
+        padding: 1px 7px;
+        text-align: center;
+
+        
+        
+    }
+
+    .main .bold {
+        font-size: 50px;
+        padding: -15px -15px;        
+    }
+
+    .main .small {
+        font-size: small;
+    }
+
+    .main p {
+        font-size: small;
+        padding: -5px -5px;
+        margin: -1px -2px;
+    }
+
+    .main h3{
+        padding: -10px -10px;
+        margin-top: -2px;
+    }
+
+    .cover{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        /* text-decoration: underline; */
+    }
+
+    .heading1 {
+        padding-left: 50px;
+        display: inline-block;
+        /* text-decoration: underline; */
+        text-align: left;
+        line-height: 1.5;
+    }
+
+    .right {
+        float: right;
+        /* text-decoration: underline; */
+        padding-right: 70px;
+        padding-top: 20px;
+        line-height: 1.5;   
+    }
+
+    .right .updated{
+        text-indent: 25px ;
+    }
+
+    .updated{
+        font-size: x-small;
+        color: red;
+        margin: 0.5px 0;
+        text-decoration:none;
+        /* text-indent: 1px; */
+        text-align: start;
+    }        
+    
+
+    .insurence .quote{
+        text-align: center; 
+        font-size: x-small;
+        padding: 0;
+        margin: 0;
+        padding-top: 20px;
+        
+
+    }
+
+    .insurence .quote2{
+        padding: 0;
+        text-align: center; 
+        font-size: x-small;
+        margin: 0;
+        color: blue;
+    }
+
+    .insurence .quote3{
+        padding: 0;
+        text-align: center; 
+        font-size: x-small;
+        padding-bottom: 15px;
+        margin: 0;
+        color: blue;
+    }
+    
+
+    .closing{
+        font-size: small;
+        color: blue;
+        padding: 10px 0;
+    }
+
+    footer{
+        color: blue;
+        font-size:small;
+    }
+
+    .divider{
+        border-bottom: 2px solid red;
+    }
